@@ -1,0 +1,27 @@
+unit Unit6;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, QuickRpt;
+
+type
+  TFormRepOrder = class(TForm)
+    QuickRep1: TQuickRep;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormRepOrder: TFormRepOrder;
+
+implementation
+
+uses Unit1, Unit2, Unit3, Unit4, Unit5;
+
+{$R *.dfm}
+
+end.
